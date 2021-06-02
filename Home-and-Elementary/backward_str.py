@@ -1,5 +1,5 @@
 #--------------------------------------------#
-#				My Solution 				 #
+#		My Solution		     #
 #--------------------------------------------#
 def backwards_string(val: str):
 	val_list = list(val)
@@ -8,7 +8,7 @@ def backwards_string(val: str):
 	return rev_str
 
 #--------------------------------------------#
-#			  Better Solutions				 #
+#	      Better Solutions	     	     #
 #--------------------------------------------#
 
 #def backward_string(val: str):
@@ -17,7 +17,7 @@ def backwards_string(val: str):
 #backward_string = lambda val: val[::-1]
 
 #--------------------------------------------#
-#					Test					 #
+#		    Test		     #
 #--------------------------------------------#
 
 k = backwards_string("Henrique")
