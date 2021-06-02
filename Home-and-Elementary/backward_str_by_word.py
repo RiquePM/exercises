@@ -1,18 +1,18 @@
 #--------------------------------------------#
-#				My Solution 				 #
+#		My Solution		     #
 #--------------------------------------------#
 def backward_str_by_word(text:str):
 	txt_list = [word[::-1] for word in text.split(" ")]
 	return " ".join(txt_list)
 
 #--------------------------------------------#
-#			  Better Solutions			     #
+#	      Better Solutions	     	     #
 #--------------------------------------------#
 
 #return " ".join(word[::-1] for word in text.split(" "))
 
 #--------------------------------------------#
-#					Test					 #
+#		    Test		     #
 #--------------------------------------------#
 
 a = backward_str_by_word('') #== ''
