@@ -1,5 +1,5 @@
 #--------------------------------------------#
-#				My Solution 				 #
+#		My Solution		     #
 #--------------------------------------------#
 def is_all_upper(text: str):
 	if text == '':
@@ -7,12 +7,11 @@ def is_all_upper(text: str):
 	return text.isupper() or text.isspace() or text.isnumeric()
 
 #--------------------------------------------#
-#				Other Solutions				 #
+#	      Other Solutions	     	     #
 #--------------------------------------------#
 
-
 #--------------------------------------------#
-#					Test					 #
+#		    Test		     #
 #--------------------------------------------#
 
 print(is_all_upper('AARRR')) #True	
