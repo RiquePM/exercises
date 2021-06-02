@@ -1,5 +1,5 @@
 #--------------------------------------------#
-#				My Solution 				 #
+#		My Solution		     #
 #--------------------------------------------#
 def left_join(phrases: tuple):
 	phrases = list(phrases)
@@ -10,7 +10,7 @@ def left_join(phrases: tuple):
 	return ",".join(phrases)
 				 
 #--------------------------------------------#
-#			  Better Solutions				 #
+#	      Better Solutions	     	     #
 #--------------------------------------------#
 
 #def left_join(phrases: tuple):
@@ -19,7 +19,7 @@ def left_join(phrases: tuple):
 #left_join = lambda p:",".join(p).replace("right","left")
 
 #--------------------------------------------#
-#					Test					 #
+#		    Test		     #
 #--------------------------------------------#
 
 a = left_join(("left", "right", "left", "stop")) #== "left,left,left,stop", "All to left"
