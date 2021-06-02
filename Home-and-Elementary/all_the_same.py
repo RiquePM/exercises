@@ -1,5 +1,5 @@
 #--------------------------------------------#
-#				My Solution 				 #
+#		My Solution		     #
 #--------------------------------------------#
 def all_the_same(elements: list):
 	for i in range(len(elements)):
@@ -8,7 +8,7 @@ def all_the_same(elements: list):
 	return True		
  
 #--------------------------------------------#
-#			  Better Solutions				 #
+#	      Better Solutions	     	     #
 #--------------------------------------------#
 
 #def all_the_same(elements):
@@ -21,7 +21,7 @@ def all_the_same(elements: list):
     #return all(elements[0] == e for e in elements[1:])
 
 #--------------------------------------------#
-#					Test					 #
+#		    Test		     #
 #--------------------------------------------#
 
 a = all_the_same([1, 1, 1]) #== True
