@@ -1,5 +1,5 @@
 #--------------------------------------------#
-#				My Solution 				 #
+#		My Solution		     #
 #--------------------------------------------#
 def remove_all_before(items: list, border: int):
 	if border in items:
@@ -9,7 +9,7 @@ def remove_all_before(items: list, border: int):
 	return items
 
 #--------------------------------------------#
-#			  Better Solutions				 #
+#	      Better Solutions	     	     #
 #--------------------------------------------#
 
 #def remove_all_before(items: list, border: int):
@@ -22,7 +22,7 @@ def remove_all_before(items: list, border: int):
 	#return items	
 
 #--------------------------------------------#
-#					Test					 #
+#		    Test		     #
 #--------------------------------------------#
 
 a = [1, 2, 3, 4, 5, 6, 7, 8]
