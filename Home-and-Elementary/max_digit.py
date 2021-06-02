@@ -1,11 +1,11 @@
 #--------------------------------------------#
-#				My Solution 				 #
+#		My Solution		     #
 #--------------------------------------------#
 def max_digit(number: int): 
 	return max(str(number))
 
 #--------------------------------------------#
-#			  Better Solutions		         #
+#	      Better Solutions	     	     #
 #--------------------------------------------#
 
 #max_digit = lambda number: int(max(str(number)))
@@ -17,7 +17,7 @@ def max_digit(number: int):
 
 
 #--------------------------------------------#
-#					Test					 #
+#		    Test		     #
 #--------------------------------------------#
 
 a = max_digit(52)
