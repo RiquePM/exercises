@@ -1,5 +1,5 @@
 #--------------------------------------------#
-#				My Solution 				 #
+#		My Solution		     #
 #--------------------------------------------#
 def count_digits(text:str):
 	a = 0
@@ -9,7 +9,7 @@ def count_digits(text:str):
 	return a	
 
 #--------------------------------------------#
-#			  Better Solutions			     #
+#	      Better Solutions	     	     #
 #--------------------------------------------#
 
 #def count_digits(text: str) -> int:
@@ -24,7 +24,7 @@ def count_digits(text:str):
     #return len([char for char in text if char.isdigit()])
 
 #--------------------------------------------#
-#					Test					 #
+#		    Test		     #
 #--------------------------------------------#
 
 a = count_digits('hi') #== 0
