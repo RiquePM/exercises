@@ -1,5 +1,5 @@
 #--------------------------------------------#
-#				My Solution 				 #
+#		My Solution		     #
 #--------------------------------------------#
 def second_index(text:str, symbol: str):
 	for i in range(len(text)):
@@ -8,7 +8,7 @@ def second_index(text:str, symbol: str):
 	return None		
 
 #--------------------------------------------#
-#			  Better Solutions				 #
+#	      Better Solutions	     	     #
 #--------------------------------------------#
 
 #def second_index(text: str, symbol: str):
@@ -27,7 +27,7 @@ def second_index(text:str, symbol: str):
         #return text.index(symbol, index1 + 1)
 
 #--------------------------------------------#
-#					Test					 #
+#		    Test		     #
 #--------------------------------------------#
 
 a = second_index("sims", "s") #== 3
