@@ -1,12 +1,12 @@
 #--------------------------------------------#
-#				My Solution 				 #
+#		My Solution		     #
 #--------------------------------------------#
 def first_word(text:str):
 	text = text.replace(".", " ").replace(",", " ")
 	return text.split()[0]
 
 #--------------------------------------------#
-#			  Better Solutions				 #
+#	      Better Solutions	     	     #
 #--------------------------------------------#
 
 #import re
@@ -20,9 +20,8 @@ def first_word(text:str):
 #word = re.compile(r"[\w']+")
 #first_word = lambda text: word.search(text).group()
 
-
 #--------------------------------------------#
-#					Test					 #
+#		    Test		     #
 #--------------------------------------------#
 a = first_word("Hello world") #== "Hello"
 b = first_word(" a word ") #== "a"
