@@ -1,5 +1,5 @@
 #--------------------------------------------#
-#       My Solution          #
+#	            My Solution 		         #
 #--------------------------------------------#
 def between_markers(text: str, begin: str, end: str):
     if begin in text and end in text:
@@ -15,9 +15,8 @@ def between_markers(text: str, begin: str, end: str):
         return text[text.find(begin)+len(begin):]
 
 #--------------------------------------------#
-#         Better Solutions               #
+#	           Better Solutions		         #
 #--------------------------------------------#
-
 #def between_markers(text: str, begin: str, end: str) -> str:
     #start = text.find(begin) + len(begin) if begin in text else None
     #stop = text.find(end) if end in text else None
@@ -33,7 +32,7 @@ def between_markers(text: str, begin: str, end: str):
     #return text.split(begin)[-1].split(end)[0]    
 
 #--------------------------------------------#
-#           Test             #
+#		            Test		             #
 #--------------------------------------------#
 a = between_markers('What is >apple<', '>', '<') #== "apple", "One sym"
 b = between_markers("<head><title>My new site</title></head>",
