@@ -1,5 +1,5 @@
 #--------------------------------------------#
-#				My Solution 				 #
+#		My Solution		     #
 #--------------------------------------------#
 def checkio(words: str):
 	count = 0
@@ -15,7 +15,7 @@ def checkio(words: str):
 	return False 
 
 #--------------------------------------------#
-#			  Better Solutions				 #
+#	      Better Solutions	     	     #
 #--------------------------------------------#
 
 #import re
@@ -37,7 +37,7 @@ def checkio(words: str):
 
 
 #--------------------------------------------#
-#					Test					 #
+#		    Test		     #
 #--------------------------------------------#
 a = checkio("Hello World hello") #== True, "Hello"
 b = checkio("He is 123 man") #== False, "123 man"
