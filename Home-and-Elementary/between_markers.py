@@ -1,5 +1,5 @@
 #--------------------------------------------#
-#	            My Solution 		         #
+#		My Solution		     #
 #--------------------------------------------#
 def between_markers(text: str, begin: str, end: str):
     if begin in text and end in text:
