@@ -1,5 +1,5 @@
 #--------------------------------------------#
-#				My Solution 				 #
+#	        My Solution 		     #
 #--------------------------------------------#
 from datetime import datetime
 def date_time(time: str):
@@ -19,7 +19,7 @@ def date_time(time: str):
     return datetime_str
 
 #--------------------------------------------#
-#			  Better Solutions				 #
+#	      Better Solutions		     #
 #--------------------------------------------#
 #from datetime import datetime
 
@@ -45,7 +45,7 @@ def date_time(time: str):
     #return dt.strftime(f'%-d %B %Y year %-H {p("hour")} %-M {p("minute")}')
 
 #--------------------------------------------#
-#					Test					 #
+#		     Test		     #
 #--------------------------------------------#
 a = date_time("01.01.2000 00:00") #== "1 January 2000 year 0 hours 0 minutes", "Millenium"
 b = date_time("09.05.1945 06:30") #== "9 May 1945 year 6 hours 30 minutes", "Victory"
