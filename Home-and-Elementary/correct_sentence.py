@@ -1,5 +1,5 @@
 #--------------------------------------------#
-#				My Solution 				 #
+#		My Solution		     #
 #--------------------------------------------#
 def correct_sentence(text: str) -> str:
     text_list = list(text)
@@ -10,8 +10,9 @@ def correct_sentence(text: str) -> str:
     return ''.join(text_list)
 
 #--------------------------------------------#
-#			  Better Solutions				 #
+#	      Better Solutions	     	     #
 #--------------------------------------------#
+
 #def correct_sentence(text):
     #if not text.endswith('.'): text += '.'
     #return text[0].capitalize() + text[1:]
@@ -20,8 +21,9 @@ def correct_sentence(text: str) -> str:
     #return text[0].upper() + text[1:] + ("." if text[-1] != "." else "")
 
 #--------------------------------------------#
-#					Test					 #
+#		    Test		     #
 #--------------------------------------------#
+
 a = correct_sentence("greetings, friends") #== "Greetings, friends."
 b = correct_sentence("Greetings, friends") #== "Greetings, friends."
 c = correct_sentence("Greetings, friends.") #== "Greetings, friends."
