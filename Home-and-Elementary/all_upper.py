@@ -1,5 +1,5 @@
 #--------------------------------------------#
-#				My Solution 				 #
+#		My Solution		     #
 #--------------------------------------------#
 import re
 
@@ -9,8 +9,9 @@ def is_all_upper(text: str):
 	return True		
 
 #--------------------------------------------#
-#			  Better Solutions				 #
+#	      Better Solutions	     	     #
 #--------------------------------------------#
+
 #def is_all_upper(text: str) -> bool:
     #return text.upper() == text
 
@@ -19,8 +20,9 @@ def is_all_upper(text: str):
     #return all(c not in string.ascii_lowercase for c in text)
 
 #--------------------------------------------#
-#					Test					 #
+#		    Test		     #
 #--------------------------------------------#
+
 print(is_all_upper('AARRR')) #True	
 print(is_all_upper('adka')) #False
 print(is_all_upper('mixed UPPER and lower')) #False
