@@ -1,5 +1,5 @@
 #--------------------------------------------#
-#				My Solution 				 #
+#		My Solution		     #
 #--------------------------------------------#
 def nearest_value(values: set, one: int):
 	if one in values:
@@ -19,8 +19,9 @@ def nearest_value(values: set, one: int):
 		return two_nearest[2]
 
 #--------------------------------------------#
-#			  Better Solutions				 #
+#	      Better Solutions	     	     #
 #--------------------------------------------#
+
 #def nearest_value(values: set, one: int) -> int:
     #return min(values, key=lambda n: (abs(one - n), n))
 
@@ -31,8 +32,9 @@ def nearest_value(values: set, one: int):
 	#return sorted(values, key=lambda x: (abs(x - one), x))[0]
 
 #--------------------------------------------#
-#					Test					 #
+#		    Test		     #
 #--------------------------------------------#
+
 a = nearest_value({4, 7, 10, 11, 12, 17}, 9) #== 10
 b = nearest_value({4, 7, 10, 11, 12, 17}, 8) #== 7
 c = nearest_value({4, 8, 10, 11, 12, 17}, 9) #== 8
