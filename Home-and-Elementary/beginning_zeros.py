@@ -1,13 +1,14 @@
 #--------------------------------------------#
-#				My Solution 				 #
+#		My Solution		     #
 #--------------------------------------------#
 def beginning_zeros(number: str):
     num = number.lstrip('0')
     return (len(number) - len(num))
 
 #--------------------------------------------#
-#			  Better Solutions				 #
+#	      Better Solutions	     	     #
 #--------------------------------------------#
+
 #def beginning_zeros(number: str) -> int:
     #return len(number) - len(number.lstrip('0'))
 
@@ -17,8 +18,9 @@ def beginning_zeros(number: str):
 
 
 #--------------------------------------------#
-#					Test					 #
+#		    Test		     #
 #--------------------------------------------#
+
 a = beginning_zeros('100') #== 0
 b = beginning_zeros('001') #== 2
 c = beginning_zeros('100100') #== 0
