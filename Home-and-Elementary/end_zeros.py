@@ -1,5 +1,5 @@
 #--------------------------------------------#
-#				My Solution 				 #
+#		My Solution		     #
 #--------------------------------------------#
 def end_zeros(num: int):
 	num_str = str(num)
@@ -12,8 +12,9 @@ def end_zeros(num: int):
 	return count
 
 #--------------------------------------------#
-#			  Better Solutions				 #
+#	      Better Solutions	     	     #
 #--------------------------------------------#
+
 #def end_zeros(num: int) -> int:
     #s = str(num)
     #return len(s) - len(s.rstrip('0'))
@@ -23,8 +24,9 @@ def end_zeros(num: int):
     #return len(re.search('0*$', str(number)).group(0))
 
 #--------------------------------------------#
-#					Test					 #
+#		    Test		     #
 #--------------------------------------------#
+
 a = end_zeros(0) # == 1
 b = end_zeros(1) # == 0
 c = end_zeros(10) # == 1
