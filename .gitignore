@@ -1,2 +1,4 @@
 .gitattributes
 todo.md
+*.pyc
+__pycache__
