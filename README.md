@@ -7,7 +7,7 @@ The main goal is to learn the basics of a new language faster
 # **Basics of a programming language**
 ...
 # **The role of the exercises**
-- Gain familiarity with the syntax of the language #[change the word syntax and expand the scope] 
+- Gain familiarity with the syntax of the language 
 - Get to know the most used functions
 - Gain familiarity with idiomatic code through the answers published by more experienced programmers
 
