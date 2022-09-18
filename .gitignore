@@ -2,3 +2,9 @@
 todo.md
 *.pyc
 __pycache__
+node_modules/
+.exercism/
+*.json
+*.config.*
+yarn.lock
+.esl*
