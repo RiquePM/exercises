@@ -8,3 +8,7 @@ node_modules/
 *.config.*
 yarn.lock
 .esl*
+.gradle/
+build/
+build.gradle
+HINTS.md
