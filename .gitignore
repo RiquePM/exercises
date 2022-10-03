@@ -12,3 +12,4 @@ yarn.lock
 build/
 build.gradle
 HINTS.md
+bin/
